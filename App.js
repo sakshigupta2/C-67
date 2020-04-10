@@ -21,13 +21,14 @@ class SoundButton extends React.Component {
        width:100,
        height:100,
        borderRadius:600,
-       justifyContent:'center'
+       justifyContent:'center',
+       alignItems: 'center'
        
      }}
      onPress = {this.playSound}>
      <Text style = {{
        color:'white',
-       fontSize:20,
+       fontSize:40,
        fontWeight:'bold',
        fontFamily:'algerian'
        }}> Sound 1 </Text>
